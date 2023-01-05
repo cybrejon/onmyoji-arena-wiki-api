@@ -117,4 +117,14 @@ Included are all the shop items along with a few that don't usually show up insi
 |装备额外描述|Unique Description (mostly jungler items)|String|"#r#ODemonbane#n: Upgrade the Subdue ability to Ice Subdue."
 
 
-More soon!
+## Image Dictionary
+### EN Image Dictionary Endpoint
+ Contains image links for abilities, shikigami 2D art and avatars, as well as an incomplete set of item image links (The CN endpoint has the complete set).
+```
+https://comp-sync.webapp.163.com/g78na_pics/api?lang=en
+```
+### CN Image Dictionary Endpoint
+The response also returns image links for avatar frames, spells, onmyodos, most skins.
+```
+https://comp-sync.webapp.163.com/g78_pics/api
+```
