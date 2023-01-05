@@ -6,16 +6,17 @@ Endpoints from https://www.onmyojiarena.us/index.html and http://moba.163.com/in
 
 Below are all the relevant data for each shikigami. Feel free to explore what I left out (plenty of them) by using these endpoints.
 
-EN (NA/EU/SEA)
+### English Endpoint(NA/EU/SEA)
 ```
 https://comp-sync.webapp.163.com/g78na_hero/free_convey?lang=en
 ```
-CN (HK/MAINLAND)
+### Chinese Endpoint (HK/MAINLAND)
+You most likely don't need this one, but felt like including it just in case someone needs it.
 ```
 https://comp-sync.webapp.163.com/g78_hero/free_convey
 ```
 
-Shikigami Basic Information
+### Shikigami Basic Information
 
 |Key|Key Translation|Value Type|Sample Value|Value Translation|
 |-------------|---------------|----------|------------|-----------------|
@@ -35,7 +36,7 @@ Shikigami Basic Information
 |"|"|"|["祝"]|["Support"]
 |cv名字|Voice Actors|Array|["Akira Ishida", "Di Wei", "Yuri Lowenthal", "남도형"]
 
-Shikigami Score
+### Shikigami Score
 |Key|Key Translation|Value Type|Sample Value|Value Translation|
 |-------------|---------------|----------|------------|-----------------|
 |评分|Shikigami Scores|Object|
@@ -45,7 +46,7 @@ Shikigami Score
 |增益|Buffs|Number|4|A
 |敏捷|Agility|Number|5|S
 
-Shikigami Stats
+### Shikigami Stats
 |Key|Key Translation|Value Type|Sample Value|Unit|Formula|
 |---|---------------|----------|------------|----|-------|
 |式神基础属性| Base Stats|Object
@@ -70,7 +71,7 @@ Shikigami Stats
 |式神基础属性.移动速度|Base Movement Speed|Number|33.5|yards/m(?)|335
 ||Base Movement Speed|Number|34|yards/m(?)|340
 
-Shikigami Recommended Builds
+### Shikigami Recommended Builds
 |Key|Key Translation|Value Type|Sample Value|
 |---|---------------|----------|------------|
 |推荐装备|Recommended Builds|Object
@@ -81,7 +82,7 @@ Shikigami Recommended Builds
 |推荐装备-默认方案3-说明|Default Build 3 Name|String| "Support, Harass"
 |推荐装备-默认方案3|Default Build 3|Array|(same type of content as default build 1)
 
-Shikigami Skills
+### Shikigami Skills
 |Key|Key Translation|Value Type|Sample Value|
 |---|---------------|----------|------------|
 |式神技能|Shikigami Skills|Object
