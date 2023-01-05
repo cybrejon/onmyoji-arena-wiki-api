@@ -92,5 +92,29 @@ https://comp-sync.webapp.163.com/g78_hero/free_convey
 |三技能|Ability 3|Object
 |四技能|Ultimate Ability|Object
 |图标路径|Ability Icon|String|gui/res/skill/1117000.png
+|技能成长|Ability Value Scaling (includes cooldown and mp cost)|Array|
 |冷却|Ability Cooldown|Array|[8, 7, 7, 6, 6]
 |消耗|Ability Mana Cost|Array|[40, 50, 60, 70, 80]
+|技能名称|Ability Name|String|Pray for Sunshine
+|技能描述|Ability Description|String|Pray for Sunshine
+
+## Shikigami Items
+```
+https://comp-sync.webapp.163.com/g78na_equip/free_convey?lang=en
+```
+Included are all the shop items including Demon Encounter ones.
+
+|Key|Key Translation|Value Type|Sample Value|
+|---|---------------|----------|------------|
+|装备类型|Item Type|Array|["Weapon", "Magic"]
+|图标路径|Item Icon|String|"gui/res/equip/111.png"
+|装备名称|Item Name|String|"Kusarigama"
+|装备等级|Weapon Level|String|"Advanced"
+|装备属性|Item Attributes|Array|["+90 Ability Power", "+300 MP", "+50% MP Regen", "+10% Cooldown Reduction"]
+|装备主动技能|Active Ability|String|"#OActive - Fluorescence#n: Restores 40#c0095cc(+30*Current Level) #n  HP and 30#c0095cc(+15*Current Level) #n  MP for nearby allied shikigami over the next 4 seconds. (CD: 60 seconds)."|
+|装备被动技能|Passive Abilities|Array|"#ONether Arrow#n: Basic attacks deal 30#c0095cc(+2*Current Level) #n  extra magic damage to target. Every time after using 2 basic attacks or abilities, the next basic attack will trigger a bonus basic attack effect."|
+|装备价格|Item Price|Number|1650
+|装备额外描述|Unique Description (mostly jungler items)|String|"#r#ODemonbane#n: Upgrade the Subdue ability to Ice Subdue."
+
+
+More soon!
