@@ -102,8 +102,8 @@ https://comp-sync.webapp.163.com/g78_hero/free_convey
 ```
 https://comp-sync.webapp.163.com/g78na_equip/free_convey?lang=en
 ```
-Included are all the shop items including Demon Encounter ones.
-
+Included are all the shop items along with a few that don't usually show up inside the shop.
+### Item Object keys
 |Key|Key Translation|Value Type|Sample Value|
 |---|---------------|----------|------------|
 |装备类型|Item Type|Array|["Weapon", "Magic"]
@@ -112,7 +112,7 @@ Included are all the shop items including Demon Encounter ones.
 |装备等级|Weapon Level|String|"Advanced"
 |装备属性|Item Attributes|Array|["+90 Ability Power", "+300 MP", "+50% MP Regen", "+10% Cooldown Reduction"]
 |装备主动技能|Active Ability|String|"#OActive - Fluorescence#n: Restores 40#c0095cc(+30*Current Level) #n  HP and 30#c0095cc(+15*Current Level) #n  MP for nearby allied shikigami over the next 4 seconds. (CD: 60 seconds)."|
-|装备被动技能|Passive Abilities|Array|"#ONether Arrow#n: Basic attacks deal 30#c0095cc(+2*Current Level) #n  extra magic damage to target. Every time after using 2 basic attacks or abilities, the next basic attack will trigger a bonus basic attack effect."|
+|装备被动技能|Passive Abilities|Array|"#ONether Arrow#n: Basic attacks deal 30#c0095cc(+2\*Current Level) #n  extra magic damage to target. Every time after using 2 basic attacks or abilities, the next basic attack will trigger a bonus basic attack effect."|
 |装备价格|Item Price|Number|1650
 |装备额外描述|Unique Description (mostly jungler items)|String|"#r#ODemonbane#n: Upgrade the Subdue ability to Ice Subdue."
 
