@@ -80,3 +80,16 @@ Shikigami Recommended Builds
 |推荐装备-默认方案2|Default Build 2|Array|(same type of content as default build 1)
 |推荐装备-默认方案3-说明|Default Build 3 Name|String| "Support, Harass"
 |推荐装备-默认方案3|Default Build 3|Array|(same type of content as default build 1)
+
+Shikigami Skills
+|Key|Key Translation|Value Type|Sample Value|
+|---|---------------|----------|------------|
+|式神技能|Shikigami Skills|Object
+|天生被动|Passive Ability|Object
+|一技能|Ability 1|Object
+|二技能|Ability 2|Object
+|三技能|Ability 3|Object
+|四技能|Ultimate Ability|Object
+|图标路径|Ability Icon|String|gui/res/skill/1117000.png
+|冷却|Ability Cooldown|Array|[8, 7, 7, 6, 6]
+|消耗|Ability Mana Cost|Array|[40, 50, 60, 70, 80]
