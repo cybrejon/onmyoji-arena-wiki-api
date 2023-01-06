@@ -1,6 +1,6 @@
 # ONMYOJI ARENA WIKI DATA
 
-Endpoints from https://www.onmyojiarena.us/index.html and http://moba.163.com/index.html.
+Endpoints from https://www.onmyojiarena.us/index.html, http://moba.163.com/index.html, and https://en.onmyojigame.com.
 
 ## Shikigami data
 
@@ -35,6 +35,21 @@ https://comp-sync.webapp.163.com/g78_hero/free_convey
 |"|"|"|["巫"]|["Mage"]
 |"|"|"|["祝"]|["Support"]
 |cv名字|Voice Actors|Array|["Akira Ishida", "Di Wei", "Yuri Lowenthal", "남도형"]
+
+## Shikigami Biographies
+These are from https://en.onmyojigame.com/. The shikigami IDs in here are not the same as that in Onmyoji Arena.
+The bios have not been updated by NetEase for a long time so there are plenty of them missing.
+### Shikigami Bios
+Contains the actual bios.
+```
+https://g37gb-simulator.webapp.163.com/get_hero_story?heroid=280&_=1671973173745
+```
+### Shikigami Bio Shiki ID Reference
+Contains a list of shikis and their Onmyoji RPG IDs.
+```
+https://g37gb-simulator.webapp.163.com/get_heroid_list?rarity=0&per_page=300&_=1671973173755
+```
+
 
 ### Shikigami Score
 |Key|Key Translation|Value Type|Sample Value|Value Translation|
@@ -133,6 +148,24 @@ https://comp-sync.webapp.163.com/g78na_mantra/free_convey?lang=en
 ### Spells [CN]
 ```
 https://comp-sync.webapp.163.com/g78_mantra/free_convey
+```
+
+## Win and Pick-rates
+### All modes
+```
+https://comp-sync.webapp.163.com/g78_op_stat_hero_rank_new_v2/free_convey?hero_type=&limit=200
+```
+### No-ban Mode(pre-Elite)
+```
+https://comp-sync.webapp.163.com/g78_op_stat_hero_rank_new_v2/free_convey?hero_type=&limit=200&mode=noban
+```
+### Ban Mode
+```
+https://comp-sync.webapp.163.com/g78_op_stat_hero_rank_new_v2/free_convey?hero_type=&limit=200&mode=ban_3
+```
+### Fog Ban Mode
+```
+https://comp-sync.webapp.163.com/g78_op_stat_hero_rank_new_v2/free_convey?hero_type=&limit=200&mode=ban_4
 ```
 
 ## Image Dictionary
