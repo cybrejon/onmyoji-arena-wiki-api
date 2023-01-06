@@ -128,3 +128,22 @@ The response also returns image links for avatar frames, spells, onmyodos, most 
 ```
 https://comp-sync.webapp.163.com/g78_pics/api
 ```
+
+## Onmyodos and Spells
+I haven't used any of these yet.
+### Onmyodos [EN]
+```
+https://comp-sync.webapp.163.com/g78na_talent/free_convey?lang=en
+```
+### Onmyodos [CN]
+```
+https://comp-sync.webapp.163.com/g78_talent/free_convey
+```
+### Spells [EN]
+```
+https://comp-sync.webapp.163.com/g78na_mantra/free_convey?lang=en
+```
+### Spells [CN]
+```
+https://comp-sync.webapp.163.com/g78_mantra/free_convey
+```
