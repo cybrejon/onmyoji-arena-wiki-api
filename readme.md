@@ -36,21 +36,6 @@ https://comp-sync.webapp.163.com/g78_hero/free_convey
 |"|"|"|["祝"]|["Support"]
 |cv名字|Voice Actors|Array|["Akira Ishida", "Di Wei", "Yuri Lowenthal", "남도형"]
 
-## Shikigami Biographies
-These are from https://en.onmyojigame.com/. The shikigami IDs in here are not the same as that in Onmyoji Arena.
-The bios have not been updated by NetEase for a long time so there are plenty of them missing.
-### Shikigami Bios
-Contains the actual bios.
-```
-https://g37gb-simulator.webapp.163.com/get_hero_story?heroid=280&_=1671973173745
-```
-### Shikigami Bio Shiki ID Reference
-Contains a list of shikis and their Onmyoji RPG IDs.
-```
-https://g37gb-simulator.webapp.163.com/get_heroid_list?rarity=0&per_page=300&_=1671973173755
-```
-
-
 ### Shikigami Score
 |Key|Key Translation|Value Type|Sample Value|Value Translation|
 |-------------|---------------|----------|------------|-----------------|
@@ -112,6 +97,20 @@ https://g37gb-simulator.webapp.163.com/get_heroid_list?rarity=0&per_page=300&_=1
 |消耗|Ability Mana Cost|Array|[40, 50, 60, 70, 80]
 |技能名称|Ability Name|String|Pray for Sunshine
 |技能描述|Ability Description|String|"Passive effect: While Hiyoribou's sunshine doll is following an allied shikigami, it will provide them with 20#c0095cc(+2*Current Level) #n  Armor and Magic Resist while also assisting the target with basic attacks. Once the sunshine doll is 1200 yards away from Hiyoribou, it will no longer follow the allied shikigami."
+
+## Shikigami Biographies
+These are from https://en.onmyojigame.com/. The shikigami IDs in here are not the same as that in Onmyoji Arena.
+The bios have not been updated by NetEase for a long time so there are plenty of them missing.
+### Shikigami Bios
+Contains the actual bios.
+```
+https://g37gb-simulator.webapp.163.com/get_hero_story?heroid=280&_=1671973173745
+```
+### Shikigami Bio Shiki ID Reference
+Contains a list of shikis and their Onmyoji RPG IDs.
+```
+https://g37gb-simulator.webapp.163.com/get_heroid_list?rarity=0&per_page=300&_=1671973173755
+```
 
 ## Shikigami Items
 ```
