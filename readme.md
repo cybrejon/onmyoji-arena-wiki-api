@@ -4,6 +4,8 @@ Endpoints from https://www.onmyojiarena.us/index.html, http://moba.163.com/index
 
 ## Shikigami data
 
+:warning: Data updates every **Monday** morning (Beijing Time).
+
 Below are all the relevant data for each shikigami. Feel free to explore what I left out (plenty of them) by using these endpoints.
 
 ### English Endpoint(NA/EU/SEA)
@@ -150,6 +152,7 @@ https://comp-sync.webapp.163.com/g78_mantra/free_convey
 ```
 
 ## Win and Pick-rates
+:warning: Data updates every **Friday** morning (Beijing Time).
 ### All modes
 ```
 https://comp-sync.webapp.163.com/g78_op_stat_hero_rank_new_v2/free_convey?hero_type=&limit=200
