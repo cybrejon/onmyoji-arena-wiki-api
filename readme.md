@@ -23,6 +23,7 @@ https://comp-sync.webapp.163.com/g78_hero/free_convey
 |Key|Key Translation|Value Type|Sample Value|Value Translation|
 |-------------|---------------|----------|------------|-----------------|
 |式神名称|Shikigami Name|String|Hiyoribou|
+|式神ID|Shikigami ID|Number|1037|
 |式神方头像|Shikigami Avatar|String|gui2/res/head_fang/1067.png|
 |式神全身像|Shikigami 2D Art|String|gui/res/hero_quan2/1011.png|
 |式神标签|Specialty|String|Burst/Charge
