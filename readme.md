@@ -48,6 +48,11 @@ https://comp-sync.webapp.163.com/g78_hero/free_convey
 |生存|Sustain|Number|3|B
 |增益|Buffs|Number|4|A
 |敏捷|Agility|Number|5|S
+|难度|Difficulty Rating|Number|1|Very Easy
+|"|"|"|2|Easy
+|"|"|"|3|Normal
+|"|"|"|4|Hard
+|"|"|"|5|Extreme
 
 ### Shikigami Stats
 |Key|Key Translation|Value Type|Sample Value|Unit|Formula|
