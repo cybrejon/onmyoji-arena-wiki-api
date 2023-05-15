@@ -100,6 +100,7 @@ https://comp-sync.webapp.163.com/g78_hero/free_convey
 |消耗|Ability Mana Cost|Array|[40, 50, 60, 70, 80]
 |基础伤害|Base Damage|Array|[75, 135, 195]
 |额外伤害|Extra Damage|Array|[25, 35, 45, 55, 65]
+|钱币上限|Coin Limit (from Tesso's ultimate)|Array|[12]
 |技能名称|Ability Name|String|Pray for Sunshine
 |技能描述|Ability Description|String|"Passive effect: While Hiyoribou's sunshine doll is following an allied shikigami, it will provide them with 20#c0095cc(+2*Current Level) #n  Armor and Magic Resist while also assisting the target with basic attacks. Once the sunshine doll is 1200 yards away from Hiyoribou, it will no longer follow the allied shikigami."
 
