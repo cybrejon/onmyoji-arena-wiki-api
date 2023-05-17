@@ -93,6 +93,7 @@ https://comp-sync.webapp.163.com/g78_hero/free_convey
 ### Shikigami Skills
 |Key|Key Translation|Value Type|Sample Value|
 |---|---------------|----------|------------|
+|推荐加点顺序|Current level skill priority|Array|[2, 3, 1, 2, 2, 4, 2, 1, 2, 1, 4, 1, 1, 3, 3, 4, 3, 3]
 |式神技能|Shikigami Skills|Object
 |天生被动|Passive Ability|Object
 |一技能|Ability 1|Object
