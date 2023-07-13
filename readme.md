@@ -150,6 +150,13 @@ I haven't used any of these yet.
 ```
 https://comp-sync.webapp.163.com/g78na_talent/free_convey?lang=en
 ```
+|Key|Key Translation|Value Type|Sample Value|
+|---|---------------|----------|------------|
+|图标路径|Icon Path|String|"gui/res/talent/00002.png"
+|解锁等级|Unlocks at Level|Number|1
+|阴阳术名称|Onmyodo Name|String|Amulet: Death
+|阴阳术说明|Onmyodo Description|String|【Amulet: Death】\nWhen dealing ability or basic attack damage to an enemy shikigami, if the target's HP is lower than 5%, the target can be killed directly while recovering 8% of own lost HP.
+
 ### Onmyodos [CN]
 ```
 https://comp-sync.webapp.163.com/g78_talent/free_convey
