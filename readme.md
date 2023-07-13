@@ -28,7 +28,7 @@ https://comp-sync.webapp.163.com/g78_hero/free_convey
 |式神全身像|Shikigami 2D Art|String|gui/res/hero_quan2/1011.png|
 |式神标签|Specialty|String|Burst/Charge
 |推荐分路|Lane|String|上|Top Lane
-|推荐阴阳术|Recommended Onmyodos|Array|["46", "41", "40", "1", "14", "27", "50"]|IDs of Onmyodos you can find in [Onmyodos](###Onmyodos-[EN])
+|推荐阴阳术|Recommended Onmyodos|Array|["46", "41", "40", "1", "14", "27", "50"]|IDs of Onmyodos you can find in [Onmyodos](#Onmyodos-[EN])
 |"|"|"|中|Mid Lane
 |"|"|"|野|Jungle
 |"|"|"|辅|Bottom Lane (Support Position)
